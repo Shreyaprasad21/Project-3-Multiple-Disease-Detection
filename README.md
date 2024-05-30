@@ -3,12 +3,14 @@
 # PROJECT 3 - MULTIPLE DISEASE DETECTION SYSTEM
 This project has been done as a part of my internship program at Nexus Info. This is the third and final project of my internship, where I utilized machine learning and Streamlit to create a robust disease detection system. The internship was conducted remotely, allowing me to collaborate with professionals and enhance my skills in a virtual environment.
 
-1. [Features](#features)
-2. [Dependencies](#dependencies)
-3. [Usage](#usage)
-4. [File Structure](#file-structure)
-5. [Deployment](#deployment)
-6. [Notes](#notes)
+## Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Dependencies](#dependencies)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [Deployment](#deployment)
+7. [Notes](#notes)
 
 ## Introduction
 The Multiple Disease Detection System is designed to detect Parkinson's disease, diabetes, and heart disease from medical images using advanced deep learning techniques. The system aims to assist healthcare professionals by providing an automated tool that can quickly and accurately diagnose these conditions, thereby improving the efficiency and effectiveness of medical diagnoses. The project leverages state-of-the-art machine learning algorithms to analyze medical data and identify potential diseases, offering a reliable solution for early detection and treatment planning. The application was deployed using Streamlit, an open-source app framework, which allows for the creation of interactive and shareable web applications for machine learning and data science.
