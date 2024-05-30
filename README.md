@@ -3,8 +3,26 @@
 # PROJECT 3 - MULTIPLE DISEASE DETECTION SYSTEM
 This project has been done as a part of my internship program at Nexus Info. This is the third and final project of my internship, where I utilized machine learning and Streamlit to create a robust disease detection system. The internship was conducted remotely, allowing me to collaborate with professionals and enhance my skills in a virtual environment.
 
+1. [Features](#features)
+2. [Dependencies](#dependencies)
+3. [Usage](#usage)
+4. [File Structure](#file-structure)
+5. [Deployment](#deployment)
+6. [Notes](#notes)
+
 ## Introduction
 The Multiple Disease Detection System is designed to detect Parkinson's disease, diabetes, and heart disease from medical images using advanced deep learning techniques. The system aims to assist healthcare professionals by providing an automated tool that can quickly and accurately diagnose these conditions, thereby improving the efficiency and effectiveness of medical diagnoses. The project leverages state-of-the-art machine learning algorithms to analyze medical data and identify potential diseases, offering a reliable solution for early detection and treatment planning. The application was deployed using Streamlit, an open-source app framework, which allows for the creation of interactive and shareable web applications for machine learning and data science.
+
+## Features
+- **Multi-Disease Detection:** Capable of predicting Parkinson's disease, diabetes, and heart disease from medical images.
+- **Deep Learning Integration:** Utilizes advanced deep learning techniques to analyze medical images and make accurate predictions.
+- **User-Friendly Interface:** Provides a simple and intuitive interface for users to upload medical images and receive disease predictions.
+- **Real-Time Prediction:** Offers real-time prediction of diseases, enabling quick decision-making for healthcare professionals.
+- **Scalability:** Designed to handle large volumes of medical data and can be easily scaled to include additional diseases in the future.
+- **Streamlit Deployment:** Deployed using Streamlit, allowing for easy sharing and access to the disease detection system through a web browser.
+- **Interpretability:** Provides explanations or visualizations to help users understand how predictions are made, increasing trust and transparency.
+- **Model Performance Metrics:** Reports performance metrics such as accuracy, precision, recall, and F1-score to evaluate the reliability of predictions.
+- **Continuous Improvement:** Allows for continuous improvement through feedback mechanisms, ensuring the system stays up-to-date with the latest medical research and advancements.
 
 ## Dependencies
 - Python 3.9 or higher
@@ -14,8 +32,13 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 
 ## Usage
 1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/multiple-disease-detection.git
+   cd multiple-disease-detection
 
 2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
 
 3. Run the desired disease prediction script:
 - For Parkinson's Disease:
@@ -30,7 +53,7 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
   ```
   python heart_disease_prediction.py
   ```
-
+  
 4. Follow the prompts to input data for prediction.
 
 ## File Structure
@@ -38,11 +61,29 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 - `diabetes_prediction.py`: Script for predicting Diabetes.
 - `heart_disease_prediction.py`: Script for predicting Heart Disease.
 - `Dataset/`: Directory containing the datasets for each disease.
+- `parkinsons.csv`: Dataset for Parkinson's Disease.
+- `diabetes.csv`: Dataset for Diabetes.
+- `heart_disease.csv`: Dataset for Heart Disease.
 - `README.md`: Instructions and information about the project.
 
-## Notes
-- Ensure correct paths to dataset files are provided in the scripts.
-- Trained models are saved as `.sav` files for future use.
+## Deployment
+The project was deployed using Streamlit. To deploy the application locally:
 
-## Execution
-- Open the terminal and run the command as streamlit run app.py
+1. Ensure Streamlit is installed:
+  ```
+  pip install streamlit
+  ```
+
+2. Run the Streamlit app:
+  ```
+  streamlit run app.py
+  ```
+
+3. Open your web browser and go to `http://localhost:8501`.
+
+## Notes
+- The project was developed using Jupyter Notebook, with separate notebooks (`parkinsons_detection.ipynb`, `diabetes_detection.ipynb`, `heart_disease_detection.ipynb`) for each disease.
+- Each notebook contains the code for data preprocessing, model training, and evaluation specific to the respective disease.
+- The datasets (`parkinsons.csv`, `diabetes.csv`, `heart_disease.csv`) are provided in the `Dataset/` directory.
+- Model deployment, user interface, and interaction were implemented using Streamlit, providing an intuitive web interface for disease prediction.
+
