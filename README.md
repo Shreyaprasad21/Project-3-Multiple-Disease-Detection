@@ -59,9 +59,9 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 4. Follow the prompts to input data for prediction.
 
 ## File Structure
-- `parkinsons_prediction.py`: Script for predicting Parkinson's Disease.
-- `diabetes_prediction.py`: Script for predicting Diabetes.
-- `heart_disease_prediction.py`: Script for predicting Heart Disease.
+- `Parkinsons.ipynb`: Script for predicting Parkinson's Disease.
+- `diabetes.ipynb`: Script for predicting Diabetes.
+- `heart.ipynb`: Script for predicting Heart Disease.
 - `Dataset/`: Directory containing the datasets for each disease.
 - `parkinsons.csv`: Dataset for Parkinson's Disease.
 - `diabetes.csv`: Dataset for Diabetes.
