@@ -35,8 +35,7 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/multiple-disease-detection.git
-   cd multiple-disease-detection
+   git clone https://github.com/Shreyaprasad21/Project-3-AI-ML-Series-Multiple-Disease-Detection-system.git
 
 2. Install dependencies:
    ```sh
