@@ -44,7 +44,7 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 3. Run the desired disease prediction script:
 - For Parkinson's Disease:
   ```
-  Parkinsons.ipynb
+  parkinsons.ipynb
   ```
 - For Diabetes:
   ```
@@ -58,7 +58,7 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
 4. Follow the prompts to input data for prediction.
 
 ## File Structure
-- `Parkinsons.ipynb`: Script for predicting Parkinson's Disease.
+- `parkinsons.ipynb`: Script for predicting Parkinson's Disease.
 - `diabetes.ipynb`: Script for predicting Diabetes.
 - `heart.ipynb`: Script for predicting Heart Disease.
 - `Dataset/`: Directory containing the datasets for each disease.
