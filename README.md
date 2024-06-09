@@ -1,6 +1,6 @@
 ![nexus_software_pvt_ltd_cover](https://github.com/Shreyaprasad21/Project-3-AI-ML-Series-Multiple-Disease-Detection-system/assets/142075353/1e542e0d-2db0-41cb-99b7-d8f61c9da7cb)
 
-# PROJECT 3 - MULTIPLE DISEASE DETECTION SYSTEM
+# PROJECT 3 - MULTIPLE DISEASE DETECTION SYST
 This project has been done as a part of my internship program at Nexus Info. This is the third and final project of my internship, where I utilized machine learning and Streamlit to create a robust disease detection system. The internship was conducted remotely, allowing me to collaborate with professionals and enhance my skills in a virtual environment.
 
 ## Contents
