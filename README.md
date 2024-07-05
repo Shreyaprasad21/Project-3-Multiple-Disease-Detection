@@ -87,4 +87,3 @@ The project was deployed using Streamlit. To deploy the application locally:
 - Each notebook contains the code for data preprocessing, model training, and evaluation specific to the respective disease.
 - The datasets (`parkinsons.csv`, `diabetes.csv`, `heart_disease.csv`) are provided in the `Dataset/` directory.
 - Model deployment, user interface, and interaction were implemented using Streamlit, providing an intuitive web interface for disease prediction.
-
