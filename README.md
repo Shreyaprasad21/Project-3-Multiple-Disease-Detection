@@ -37,9 +37,11 @@ The Multiple Disease Detection System is designed to detect Parkinson's disease,
    ```sh
    https://github.com/Shreyaprasad21/Project-3-Multiple-Disease-Detection.git
 
-2. Install dependencies
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
 
-3. Run the desired disease prediction script:
+4. Run the desired disease prediction script:
 - For Parkinson's Disease:
   ```
   parkinsons.ipynb
